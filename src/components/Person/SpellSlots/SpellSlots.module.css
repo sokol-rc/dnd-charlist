@@ -1,0 +1,70 @@
+.slotsWrapper {
+    margin: 1em 1em 0 0 !important;
+
+}
+.slotsRow {
+    position: relative;
+    padding: 8px 0 4px;
+}
+.heroDice span{
+    padding: 0 !important;
+}
+.heroDice .MuiSvgIcon-root {
+    font-size: 5px;
+}
+.slotsLabel {
+    top: 0;
+    left: 0;
+    position: absolute;
+    font-size: 0.6rem;
+    padding: 3px 3px 3px 5px;
+    color: #3256af;
+}
+.slotsCircle {
+    display: flex;
+    font-size: 1.3em;
+    position: absolute;
+}
+.slotsRowInside {
+    padding-top: 4px !important;
+    padding-bottom: 0 !important;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.slotsRowInside:first-child {
+    padding-top: 8px !important;
+}
+.row {
+    padding-left: 28px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.slotrowname{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    min-width: 65px;
+}
+.slotsFieldWrapper {
+    display: flex;
+}
+.slostCategory {
+    padding-right: 5px;
+
+}
+.slotsCategoryWrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+}
+.iconAdd{
+    padding: 0px !important;
+}
+.slotsCategoryIconWrapper{
+    display: flex;
+}
+.iconDelete{
+    height:48px;
+}

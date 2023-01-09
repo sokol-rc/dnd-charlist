@@ -1,0 +1,22 @@
+.App {
+    font-size: 16px;
+    overflow: hidden;
+    padding-bottom: 20px;
+
+}
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+.cursorPointer {
+    cursor: pointer;
+}
+/** media queries **/
+
+@media (max-width: 1200px) {
+    .App {
+        font-size: 14px;
+    }
+}

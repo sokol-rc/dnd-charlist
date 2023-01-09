@@ -1,0 +1,52 @@
+.paper{
+    padding: 16px;
+    text-align: center;
+    color: red;
+}
+.head {
+    padding-top:20px;
+}
+.person {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.personInfoWrapper {display: flex;
+flex-direction: row;
+align-items: center;
+}
+.titleWrapper {
+    flex: 0 200px;
+}
+.mainInfo {
+
+}
+.mainInfo .MuiTextField-root{
+    margin: 16px;
+}
+.avatar {
+    width: 80px !important;
+    height: 80px !important;
+    margin-right: 16px;
+}
+.lifeStatsWrapper {
+    display: flex;
+}
+.editBtn {
+    border-radius: 50% !important;
+    padding: 12px !important;
+    min-width: auto !important;
+    margin-left: 16px !important;
+}
+.editBtn .MuiButton-startIcon {
+    margin: 0!important;
+}
+.avatarInput {
+    display: none;
+}
+
+@media (max-width: 870px) {
+    .row .MuiSvgIcon-root {
+        font-size: 0.6em !important;
+    }
+}

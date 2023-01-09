@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2a41d999-9802-49a4-b022-bf93c169dc26" name="httpsDndRollD20" url="http://82.202.172.212">
+        <fileTransfer rootFolder="/free111625.ispsite.ru" host="82.202.172.212" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

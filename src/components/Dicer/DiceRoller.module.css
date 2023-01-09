@@ -1,0 +1,65 @@
+.diceRollerWrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0 1em 0 0;
+}
+.chat {
+    height: 300px;
+    background: #F9EDFF;
+    padding: 10px;
+    overflow-y: scroll;
+    position: relative;
+}
+.conversation {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 280px;
+}
+.inputPanel {
+    display: flex;
+}
+.inputForm {
+    margin: 0 !important;
+    padding: 5px 0 5px 14px !important;
+    display: flex;
+}
+.iconButton {
+    border: 0;
+    background: none;
+    color: #3f51b5;
+}
+.input {
+    flex: 1;
+}
+.divider {
+    margin: 4px;
+}
+.presetWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.singleDiceBtn {
+    margin-top: 5px !important;
+    margin-right: 5px !important;
+    max-width: 26%;
+}
+.critical {
+    background: rgba(0,255,0,0.1);
+}
+.lose {
+    background: rgba(255,0,0,0.1);
+}
+.otherPlayer {
+    color: rgba(0, 0, 0, 0.38);
+}
+@media (max-width: 1200px) {
+    .presetWrapper:last-child {
+        margin-right: 0px !important;
+    }
+    .singleDiceBtn {
+        margin-right: 5px !important;
+    }
+}
